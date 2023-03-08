@@ -1,2 +1,2 @@
 # SMSUT
-the code for SMUST, a semi-supervised medical image segmentation with unified translation assisting.
+the code for SMUST, Semi-supervised Multi-modal Medical Image Segmentation with Unified Translation.
