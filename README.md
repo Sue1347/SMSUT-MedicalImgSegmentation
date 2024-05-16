@@ -1,6 +1,6 @@
 # Semi-supervised Multi-modal Medical Image Segmentation with Unified Translation 
 
-To Run this file:
+- To Run this file:
 
 First Process the data into the nii files.
 
@@ -16,7 +16,7 @@ CUDA_VISIBLE_DEVICES=0 python trainer/uganConsisTrainer.py -p train -f 0
 CUDA_VISIBLE_DEVICES=0 python trainer/uganConsisTrainer.py -p test -f 0 -i 000 -wh best
 ```
 
-To download the multi-modal dataset:
+- To download the multi-modal dataset:
 
 **CT:** 
 
@@ -30,7 +30,7 @@ Multi-Atlas Labeling Beyond the Cranial Vault - Workshop and Challenge
 
 https://www.synapse.org/#!Synapse:syn3193805
 
-To cite this paper:
+- To cite this paper:
 
 ```
 @article{SUN2024108570,
