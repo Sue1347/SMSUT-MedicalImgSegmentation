@@ -16,6 +16,20 @@ CUDA_VISIBLE_DEVICES=0 python trainer/uganConsisTrainer.py -p train -f 0
 CUDA_VISIBLE_DEVICES=0 python trainer/uganConsisTrainer.py -p test -f 0 -i 000 -wh best
 ```
 
+To download the multi-modal dataset:
+
+**CT:** 
+
+CHAOS - Combined (CT-MR) Healthy Abdominal Organ Segmentation
+
+https://chaos.grand-challenge.org
+
+**MRs:**
+
+Multi-Atlas Labeling Beyond the Cranial Vault - Workshop and Challenge
+
+https://www.synapse.org/#!Synapse:syn3193805
+
 To cite this paper:
 
 ```
