@@ -15,3 +15,19 @@ Then, train and test the model
 CUDA_VISIBLE_DEVICES=0 python trainer/uganConsisTrainer.py -p train -f 0
 CUDA_VISIBLE_DEVICES=0 python trainer/uganConsisTrainer.py -p test -f 0 -i 000 -wh best
 ```
+
+To cite this paper:
+
+```
+@article{SUN2024108570,
+title = {Semi-supervised multi-modal medical image segmentation with unified translation},
+journal = {Computers in Biology and Medicine},
+volume = {176},
+pages = {108570},
+year = {2024},
+issn = {0010-4825},
+doi = {https://doi.org/10.1016/j.compbiomed.2024.108570},
+url = {https://www.sciencedirect.com/science/article/pii/S0010482524006541},
+author = {Huajun Sun and Jia Wei and Wenguang Yuan and Rui Li}
+}
+```
